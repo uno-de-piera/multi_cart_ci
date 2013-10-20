@@ -1,5 +1,7 @@
 <h1>Multicart for codeigniter</h1>
 <h1>Installation</h1>
+
+This library needs to use the php native sessions, including My_Session.php file in the folder and they are extended libraries correctly.
 Download files hosted on libraries folder and place them in the libraries folder of your project.
 
 <h1>Example Usage MultiCart</h1>
