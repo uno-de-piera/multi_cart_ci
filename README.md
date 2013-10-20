@@ -14,12 +14,18 @@ Download files hosted on libraries folder and place them in the libraries folder
     $this->shop2 = new Udp_cart("shop2");//cart2
     $this->shop3 = new Udp_cart("shop3");//cart3
 ```
-<h2>Insert a product</h2>
+<h3>Insert a product</h3>
 ```php
 	$article = array("id" => rand(1,10),"qty" => mt_rand(1,10),"name" => "shoes","price" => "10");
     $article["options"] = array("color" => "black", "size" => "4");
 
     $this->shop1->insert($article);
+```
+<h3>Update product with options and id 7</h3>
+```php
+$article = array("id" => 7, "qty" => 1, "name" => "shoes", "price" => 2);
+$article["options"] = array("color" => "black", "size" => "4");
+$this->shop1->update($article);
 ```
 <h3>Remove a product by rowid</h3>
 <p>You just need to pass a rowid that there</p>
