@@ -1,6 +1,7 @@
 <h1>Multicart for codeigniter</h1>
 
 This library needs to use the php native sessions, including My_Session.php file in the folder and they are extended libraries correctly.
+Using sessions remains exactly the same as with native codeigniter.
 
 <h2>Installation</h2>
 
