@@ -185,6 +185,7 @@ class Udp_cart
 
     	$this->cart[$this->instance]["total_articles"] = $items;
     	$this->cart[$this->instance]["total_cart"] = $total;
+    	$this->get_content();
     }
 
     /**
